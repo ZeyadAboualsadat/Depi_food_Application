@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HeaderStyle">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/size_24</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:padding">@dimen/padding_16</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/size_18</item>
+    </style>
+</resources>

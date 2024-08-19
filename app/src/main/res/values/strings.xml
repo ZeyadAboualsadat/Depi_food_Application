@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NavigationApp</string>
+    <string name="hello"> Log in</string>
+    <string name="enter_email">Name</string>
+    <string name="enter_password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="students">Cities</string>
+    <string name="newyork">Cattle Barron</string>
+    <string name="ontario">Pan Cakes</string>
+    <string name="dubai">Shawerma</string>
+    <string name="cairo">Pizza</string>
+    <string name="paris">Paris</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="more">More</string>
+    <string name="navigate_to_fragment">Navigate to Next Fragment</string>
+    <string name="login_activity">Login Activity</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="meals">Meals</string>
+</resources>

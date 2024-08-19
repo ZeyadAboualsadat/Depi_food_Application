@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/citiesFragment2">
+
+    <fragment
+        android:id="@+id/citiesFragment2"
+        android:name="com.example.citiesapplication.CitiesFragment"
+        android:label="CitiesFragment" >
+        <action
+            android:id="@+id/action_citiesFragment2_to_cityDetailsFragment"
+            app:destination="@id/cityDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cityDetailsFragment"
+        android:name="com.example.citiesapplication.CityDetailsFragment"
+        android:label="CityDetailsFragment" >
+        <argument android:name="user"
+            app:argType="com.example.navigationapp.City"></argument>
+    </fragment>
+    <fragment
+        android:id="@+id/moreFragment2"
+        android:name="com.example.navigationapp.MoreFragment"
+        android:label="MoreFragment" />
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.example.navigationapp.ProfileFragment"
+        android:label="ProfileFragment" />
+</navigation>
